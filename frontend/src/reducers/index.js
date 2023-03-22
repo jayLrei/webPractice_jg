@@ -1,4 +1,4 @@
-import authentication from './authentication';
+import authentication from './authentication.js';
 
 import { combineReducers } from 'redux';
 

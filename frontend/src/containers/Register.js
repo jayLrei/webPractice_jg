@@ -1,5 +1,22 @@
 import React from 'react'
 import './Register.css'
+import { connect } from 'react-redux';
+import { registerRequest } from '.././actions/ActionType.js';
+
+// const mapStateToProps = (state) => {
+//     return {
+//         status: state.authentication.register.status,
+//         errorCode: state.authentication.register.error
+//     };
+// };
+
+// const mapDispatchToProps = (dispatch) => {
+//     return {
+//         registerRequest: (id, pw) => {
+//             return dispatch(registerRequest(id, pw));
+//         }
+//     };
+// };
 
 function Register() {
   return (
@@ -35,4 +52,4 @@ function Register() {
   )
 }
 
-export default Register
+export default Register;
